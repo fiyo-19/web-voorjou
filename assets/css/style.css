@@ -7,6 +7,12 @@
 	width: 100vw;
 }
 
+@media only screen and (max-width: 767px){
+	.banner{
+		height: 130vh;
+	}
+}
+
 .banner .title{
 	margin: 1rem 0rem 5rem 0rem;
 }
@@ -14,6 +20,12 @@
 .banner .slogan h1{
 	font-size: 5rem;
 	margin: 0rem 0rem 5rem 0rem;
+}
+
+@media only screen and (max-width: 425px){
+     .banner .slogan h1{
+     	font-size: 20vw;
+     }   
 }
 
 .banner .book a{
@@ -34,6 +46,12 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 992px){
+	.greetings{
+		height: 100%;
+	}
 }
 
 .greetings .greetings-container{
@@ -57,6 +75,35 @@
 	font-size: 1.5rem;
 }
 
+@media only screen and (max-width: 425px){
+	.about .about-container{
+		padding: 1rem 1rem;
+	}
+
+    .about h1{
+     	font-size: 7vw;
+     } 
+
+     .about p{
+		font-size: 3.5vw;
+	}  
+}
+
+@media only screen and (min-width: 426px) and (max-width: 1200px){
+	.about .about-container{
+		height: 100%;
+		padding: 1rem 3rem;
+	}
+
+     .about h1{
+     	font-size: 5vw;
+     } 
+
+     .about p{
+		font-size: 3vw;
+	}     
+}
+
 .menu .menu-container{
 	height: 100vh;
 }
@@ -66,9 +113,48 @@
 	background-color: #CD853F;
 }
 
+.menu .menu-list-box .menus a{
+	color: #8B4513;
+}
+
+.menu .menu-list-box .menus a:hover{
+	color: #fff;
+}
+
+@media only screen and (max-width: 425px){
+    .menu .menu-list-box .menus{
+    	padding: 0.5rem;
+    	margin: 2rem 0rem;
+    }
+
+    .menu .menu-list-box .menus img{
+    	width: 30vw;
+    }
+}
+
+@media only screen and (max-width: 992px){
+	.menu .menu-list-box .menus img{
+    	width: 15vw;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .menu .menu-container{
+/* 		margin: 200px 0px; */
+		height: 100%;
+	}
+}
+
+@media only screen and (min-width: 426px) and (max-width: 992px){
+    .menu .menu-container{
+		margin: 50px 0px;
+		height: 100%;
+	}
+}
+
 .contact .contact-container{
 	height: 100vh;
-		overflow: hidden;
+	overflow: hidden;
 }
 
 .contact img{
@@ -90,4 +176,17 @@
 
 .contact .contact-info .space{
 	margin: 2.5rem 0rem;
+}
+
+@media only screen and (max-width: 992px){
+    .contact .contact-info{
+		padding: 3rem;
+	}
+}
+
+.contact-container-mobile{
+	background-image: url('../img/contact.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
