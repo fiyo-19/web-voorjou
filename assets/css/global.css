@@ -7,7 +7,7 @@ src: url('../fonts/ArsenicaTrial-Regular.ttf') format('truetype');
 
 @font-face { 
 font-family: 'Edinburgh';
-src: url('../fonts/Edinburgh-Regular.otf') format('otf');
+src: url('../fonts/Edinburgh-Regular.otf') format('opentype');
 }
 
 *{
