@@ -184,9 +184,22 @@
 	}
 }
 
-.contact-container-mobile{
-	background-image: url('../img/contact.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
+.contact-container-mobile .contact-info {
+    position: relative;
+    color: #fff; 
+}
+
+.contact-container-mobile .contact-info::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../img/contact.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    filter: brightness(50%);
+    z-index: -1;
 }
