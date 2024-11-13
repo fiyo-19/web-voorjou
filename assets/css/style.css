@@ -114,11 +114,11 @@
 }
 
 .menu .menu-list-box .menus a{
-	color: #8B4513;
+	color: #fff;
 }
 
 .menu .menu-list-box .menus a:hover{
-	color: #fff;
+	color: #8B4513;
 }
 
 @media only screen and (max-width: 425px){
@@ -140,7 +140,6 @@
 
 @media only screen and (max-width: 425px){
     .menu .menu-container{
-/* 		margin: 200px 0px; */
 		height: 100%;
 	}
 }
@@ -155,6 +154,18 @@
 .contact .contact-container{
 	height: 100vh;
 	overflow: hidden;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1700px){
+    .contact .contact-container img{
+    	width: 50vw;
+	}
+}
+
+@media only screen and (min-width: 1700px){
+    .contact .contact-container img{
+    	width: 30vw;
+	}
 }
 
 .contact img{
